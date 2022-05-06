@@ -53,7 +53,7 @@ i {
   margin-right: 5px;
 }
 .bg {
-  background: url(/bgimaghe.jpeg) center / cover fixed no-repeat;
+  background: url(bgimaghe.jpeg) center / cover fixed no-repeat;
   height: 60vh;
   display: flex;
   justify-content: center;
@@ -88,7 +88,7 @@ h1 {
   width: 30%;
   height: 30vh;
   border: 2px solid yellow;
-  background: url(/patab.jpeg) center/ cover no-repeat;
+  background: url(patab.jpeg) center/ cover no-repeat;
   transition: transform 1s;
 }
 .photo-right:hover {
