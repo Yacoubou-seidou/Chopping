@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.main-container {
+  width: 100vw;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.nav-el {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+  color: #d6a9b8;
+}
+.btn {
+  background-color: #ce6985;
+  border: 0;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.logo {
+  width: 60px;
+}
+li {
+  list-style-type: none;
+}
+i {
+  margin-right: 5px;
+}
+.bg {
+  background: url(/bgimaghe.jpeg) center / cover fixed no-repeat;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pres {
+  text-align: center;
+}
+.btn-vide1 {
+  background-color: transparent;
+  padding: 5px;
+  width: 80px;
+  border: 1px solid black;
+}
+h1 {
+  color: #da638b;
+}
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+.ecris-left {
+  width: 30%;
+  height: 30vh;
+}
+.photo-right {
+  width: 30%;
+  height: 30vh;
+  border: 2px solid yellow;
+  background: url(/patab.jpeg) center/ cover no-repeat;
+  transition: transform 1s;
+}
+.photo-right:hover {
+  transform: translateY(-20%);
+}
+.btn-vide2 {
+  background-color: transparent;
+  padding: 5px;
+  width: 80px;
+  border: 1px solid black;
+}
+span {
+  color: #e57892;
+}
+.boutique {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #efeeef;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.cart {
+  width: 80vw;
+}
+.les-btn {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+}
+.search {
+  width: 80vw;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.les-produits {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+#barre {
+  width: 40%;
+  padding: 5px;
+}
+.rouge {
+  background-color: #ce6985;
+  padding: 6px;
+  margin-right: 0;
+  border: 1px solid black;
+}
+.btn-vide {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid black;
+}
+.sucreri {
+  width: 30%;
+  height: 200px;
+  margin-top: 20px;
+}
+.btn-buy {
+  visibility: hidden;
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bottom: -70%;
+  border: 0;
+  left: 46%;
+  border-radius: 12px 0px 0px 0px;
+  cursor: pointer;
+  background-color: #dac369;
+}
+.btn-buy :hover {
+  color: white;
+}
+.titre {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  background-color: #fffeff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: -70%;
+  box-sizing: border-box;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.chario {
+  width: 25vw;
+  min-height: 30vh;
+  background-color: #f7e195;
+  position: relative;
+  top: -23%;
+  left: 76%;
+  padding-bottom: 20px;
+  visibility: hidden;
+  overflow: scroll;
+}
+.cercle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.chart-el {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.delete {
+  border: 0;
+  background-color: transparent;
+  color: #ce6985;
+  cursor: pointer;
+}
+h5 {
+  margin: 0;
+}
+.btn-vide5 {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid black;
+}
+.btn-vide6 {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid black;
+  color: #ce6985;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.guichet {
+  text-align: center;
+}
+.donne {
+  text-align: center;
+}
+.sucreri:hover .btn-buy {
+  visibility: visible;
+  transform: translateX(-20%);
+  transition: transform 1s;
+}
+.noir {
+  color: black;
+}
+.contenu {
+  padding: 20px;
+  width: 20vw;
+  height: 100%;
+}
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+.pres {
+  position: relative;
+  right: 10%;
+}
