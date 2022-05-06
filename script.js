@@ -10,47 +10,47 @@ let j = 0;
 let total = 0;
 let myArr = [
   {
-    image: "/patel.jpeg",
+    image: "patel.jpeg",
     nom: "Sweet Item",
     prix: 5,
   },
   {
-    image: "/patel2.jpeg",
+    image: "patel2.jpeg",
     nom: "Cupcake Item",
     prix: 5,
   },
   {
-    image: "/patel3.jpeg",
+    image: "patel3.jpeg",
     nom: "Cake Item",
     prix: 5,
   },
   {
-    image: "/patel5.jpeg",
+    image: "patel5.jpeg",
     nom: "Dougoout Item",
     prix: 10,
   },
   {
-    image: "/patel6.jpeg",
+    image: "patel6.jpeg",
     nom: "Sweet Item",
     prix: 10,
   },
   {
-    image: "/patel7.jpeg",
+    image: "patel7.jpeg",
     nom: "Cupcake item",
     prix: 10,
   },
   {
-    image: "/patel8.jpeg",
+    image: "patel8.jpeg",
     nom: "Bistella",
     prix: 15,
   },
   {
-    image: "/patel9.png",
+    image: "patel9.png",
     nom: "Sweet Item",
     prix: 15,
   },
   {
-    image: "/patel4.jpeg",
+    image: "patel4.jpeg",
     nom: "Sweet Item",
     prix: 15,
   },
